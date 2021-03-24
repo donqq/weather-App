@@ -23,12 +23,19 @@ A simple weather dashboard that displays weather information of selected cities.
 - Copy the environment constant to both the files. 
 - Make the production boolean false in environment.ts file. 
 
+## Demo
+
+https://weather-app-7dec3.web.app/
+
 ## Developer
+
 Badde Liyanage Don Dilanga, 2021/March, github@dilanga.com.
 Sri Lanka LK. 
 
 ## License
+
 Simple non code license (SNCL)
 
 # Screenshots
+
 <img src='screenshots/mobile1.png' width='25%'> <img src='screenshots/mobile2.png' width='25%'> <img src='screenshots/mobile3.png' width='25%'> <img src='screenshots/desktop1.png' width='25%'> <img src='screenshots/desktop2.png' width='25%'> 

@@ -1,6 +1,6 @@
 # Weather Dashboard
 
-A simple weather dashboard that displays weather information of selected cities. It uses the weather API of openweathermap to retrieve weather information. I have developed this application for an interview assignment, and plan to continue its development by adding more functionalities in the future.  
+A simple weather dashboard that displays weather information of selected cities. It uses the weather API of openweathermap to retrieve weather information. I have developed this application for an interview assignment, but didn't submit them as I didn't want to work there. I plan to continue its development by adding more functionalities in the future.  
 
 ## Features
 

@@ -1,0 +1,70 @@
+
+
+<div class='row container'>
+  <div class='col top topLeft' [style.background-color]='weatherDetails.backgroundColour'>
+    <div class='topLeftFirst'>
+      <div class='cityCountry'>
+        {{ weatherDetails.city }}, {{ weatherDetails.country }}
+      </div>
+
+      <div class='weatherTime'>
+        {{ weatherDetails.date | date: 'h.mma, MMM d'}}
+      </div>
+
+      <div class='weather'>
+        <img [src]="weatherDetails.weather ? weatherDetails.weather.weatherIcon : ''">
+        {{ weatherDetails.weather ? weatherDetails.weather.weatherName : '' }}
+      </div>
+    </div>
+  </div>
+  <div class='col top topRight' [style.background-color]='weatherDetails.backgroundColour'>
+    <div>
+      <div class='mainTemp'>
+        {{ weatherDetails.temp }}
+      </div>
+      <div>
+        {{ weatherDetails.temp_min }}
+      </div>
+      <div>
+        {{ weatherDetails.temp_max }}
+      </div>
+    </div>
+  </div>
+  <div class='w-100'></div>
+  <div class='col footer bottomLeft'>
+    <div>
+      <div>
+        Pressure: {{ weatherDetails.pressure }}hPa
+      </div>
+      <div>
+        Humidity: {{ weatherDetails.humidity }}%
+      </div>
+      <div>
+        Visibility: {{ weatherDetails.visibility }}km
+      </div>
+    </div>
+  </div>
+  <div class='col footer middle'>
+    <div class='left'></div>
+    <div class='center'>
+      <div class='windArrow'>
+        <img src='../../assets/resources/wind.png'>
+      </div>
+      <div>
+        {{ weatherDetails.wind_speed }}m/s {{ weatherDetails.wind_deg }} Degree
+      </div>
+    </div>
+    <div class='right'></div>
+  </div>
+  <div class='col footer bottomRight'>
+    <div>
+      <div>
+        {{ weatherDetails.sunrise | date: 'h.mm a, LLL d' }}
+      </div>
+      <div>
+        {{ weatherDetails.sunset | date: 'h.mm a, LLL d'}}
+      </div>
+    </div>
+  </div>
+</div>
+

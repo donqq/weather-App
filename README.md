@@ -31,4 +31,4 @@ Sri Lanka LK.
 Simple non code license (SNCL)
 
 # Screenshots
-<img src='screenshots/desktop1.png' width='25%'> <img src='screenshots/desktop2.png' width='25%'> <img src='screenshots/mobile1.png' width='25%'> <img src='screenshots/mobile2.png' width='25%'> <img src='screenshots/mobile3.png' width='25%'> 
+<img src='screenshots/mobile1.png' width='25%'> <img src='screenshots/mobile2.png' width='25%'> <img src='screenshots/mobile3.png' width='25%'> <img src='screenshots/desktop1.png' width='25%'> <img src='screenshots/desktop2.png' width='25%'> 

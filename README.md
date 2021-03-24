@@ -1,27 +1,34 @@
-# WeatherApp
+# Weather Dashboard
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.3.
+A simple weather dashboard that displays weather information of selected cities. It uses the weather API of openweathermap to retrieve weather information. I have developed this application for an interview assignment, and plan to continue its development by adding more functionalities in the future.  
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- Show weather information of selected cities.
+- Mobile support (responsive)
 
-## Code scaffolding
+## Requirements 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- A web server (preferablly Nginx installed on a VPS)
+- The [API Key](https://home.openweathermap.org/api_keys)
+- Visual Studio Code
 
-## Build
+## How to Install
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+- Download the Angular application to your computer
+- Open it via Visual Studio code
+- Type npm install to install required packages in the package.json file.
+- Copy The [API Key](https://home.openweathermap.org/api_keys) after registering in the site.
+- Create two environment files in environments folder called environment.ts, and environment.prod.ts
+- Copy the environment constant to both the files. 
+- Make the production boolean false in environment.ts file. 
 
-## Running unit tests
+## Developer
+Badde Liyanage Don Dilanga, 2021/March, github@dilanga.com.
+Sri Lanka LK. 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## License
+Simple non code license (SNCL)
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+# Screenshots
+<img src='screenshots/desktop1' width='25%'> <img src='screenshots/desktop2' width='25%'> <img src='screenshots/mobile1' width='25%'> <img src='screenshots/mobile2' width='25%'> <img src='screenshots/mobile3' width='25%'> 
